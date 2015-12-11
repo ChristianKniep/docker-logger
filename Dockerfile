@@ -1,4 +1,4 @@
-FROM qnib/logstash:trunk
+FROM qnib/logstash
 MAINTAINER "Christian Kniep <christian@qnib.org>"
 
 RUN rm -rf /etc/default/logstash/
